@@ -1,6 +1,6 @@
 {
   "name": "dsh-slot-health",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Live health pane for local LLM endpoints (llama.cpp slots + Ollama models) in the DeepSeek Harness web UI.",
   "type": "module",
   "main": "lib/index.js",
@@ -30,13 +30,20 @@
     "url": "https://github.com/janpauldahlke/dsh-slot-health/issues"
   },
   "keywords": [
+    "dsh-plugin",
     "deepseek-harness",
+    "deepseek-harness-plugin",
     "dsh",
+    "cordis",
+    "cordis-plugin",
     "llama.cpp",
+    "llamacpp",
     "ollama",
     "slot",
-    "health",
-    "monitor"
+    "endpoint-health",
+    "local-llm",
+    "sidebar",
+    "web-ui"
   ],
   "dsh": {
     "bundle": {
