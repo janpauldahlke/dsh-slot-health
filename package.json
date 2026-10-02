@@ -1,6 +1,6 @@
 {
   "name": "dsh-slot-health",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Live health pane for local LLM endpoints (llama.cpp slots + Ollama models) in the DeepSeek Harness web UI.",
   "type": "module",
   "main": "lib/index.js",

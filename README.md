@@ -153,11 +153,17 @@ dsh-slot-health/
 
 Requires **DeepSeek Harness** with a web profile and a local endpoint to watch.
 
-### From GitHub (users)
+### From npm (recommended)
+
+```sh
+dsh plugin --profile web add dsh-slot-health
+# restart dsh web (or rely on live patch reload), then hard-refresh the browser
+```
+
+### From GitHub
 
 ```sh
 dsh plugin --profile web add github:janpauldahlke/dsh-slot-health
-# restart dsh web (or rely on live patch reload), then hard-refresh the browser
 ```
 
 `lib/` is committed, so install does not require a local TypeScript/esbuild
