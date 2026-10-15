@@ -1,6 +1,6 @@
 {
   "name": "dsh-slot-health",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Live health pane for local LLM endpoints (llama.cpp slots + Ollama models) in the DeepSeek Harness web UI.",
   "type": "module",
   "main": "lib/index.js",
@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "build": "node build.mjs && tsc --noEmit",
-    "prepare": "node build.mjs || node -e \"console.warn('[dsh-slot-health] prepare: build skipped (build toolchain unavailable); relying on prebuilt lib/')\"",
+    "prepare": "node build.mjs",
     "test": "node --test"
   },
   "repository": {
@@ -62,7 +62,8 @@
   "devDependencies": {
     "@types/node": "^24.0.0",
     "@types/react": "^19.2.0",
-    "esbuild": "^0.27.0",
+    "dsh-build-tools": "^0.1.1",
+    "esbuild": "^0.25.0",
     "react": "^19.2.7",
     "typescript": "^5.9.0"
   },
